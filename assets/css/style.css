@@ -74,6 +74,10 @@ img{
     width: calc(100% / 12 * 3);
 }
 
+.col-12{
+    width: 100%;
+}
+
 
 /* Debug */
 
@@ -143,7 +147,7 @@ header{
     }
 }
 
-.try_free{
+.label{
 
     a{
         text-decoration: none;
@@ -184,7 +188,7 @@ header{
             }
         }
 
-        .try_free{
+        .label{
             text-align: center;
             padding-bottom: 1rem;
 
@@ -196,6 +200,21 @@ header{
         h4{
             padding: 1rem 0;
             border-top: 1px solid lightgrey
+        }
+    }
+
+    .col-12{
+        border: 1px solid lightgrey;
+        width: 100%;
+        margin-top: 3rem;
+
+        .title_plan{
+            text-align: center;
+            border: 1px solid lightgrey;
+        }
+
+        strong{
+            padding-left: 2rem;
         }
     }
 }
