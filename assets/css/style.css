@@ -66,6 +66,14 @@ img{
     width: calc(100% / 12 * 4);
 }
 
+.col-5{
+    width: calc(100% / 12 * 5);
+}
+
+.col-7{
+    width: calc(100% / 12 * 7);
+}
+
 .col-8{
     width: calc(100% / 12 * 8);
 }
@@ -216,5 +224,20 @@ header{
         strong{
             padding-left: 2rem;
         }
+    }
+}
+
+.partner{
+    margin: 8rem 0;
+
+    span{
+        padding: 2rem 0;
+    }
+    
+    a{
+        border: 2px solid var(--drop-dark);
+        color: var(--drop-dark);
+        text-decoration: none;
+        padding: 0.50rem 1rem;
     }
 }
