@@ -124,6 +124,13 @@ header{
         background-color: var(--drop-secondary);
         padding: 0.25rem 0.50rem;
     }
+
+    .start{
+        a{
+            color: var(--drop-light);
+            padding: 1rem 0.50rem;
+        }
+    }
 }
 
 /* Main */
@@ -239,5 +246,27 @@ header{
         color: var(--drop-dark);
         text-decoration: none;
         padding: 0.50rem 1rem;
+    }
+}
+
+.dropbox_business{
+
+
+    h2{
+        padding: 2rem 0;
+        font-size: 2rem;
+    }
+
+    .col-3{
+        width: 300px;
+        padding: 1rem;
+    }
+
+    .col-7{
+        margin: 8rem 0;
+
+        a{
+            padding: 2rem 0;
+        }
     }
 }
