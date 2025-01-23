@@ -270,3 +270,43 @@ header{
         }
     }
 }
+
+/* Footer */
+
+footer{
+    background-color: var(--drop-dark);
+
+    .container_70{
+        gap: 2rem;
+    }
+
+    .footer_list{
+        padding: 5rem 0;
+    }
+
+    h3{
+        color: var(--drop-light);
+        padding: 2rem 0;
+    }
+
+    ul{
+        list-style: none;
+
+        a{
+            text-decoration: none;
+            color: var(--drop-light);
+            line-height: 2rem;
+        }
+    }
+
+    .border_bottom{
+        border-bottom: 1px solid var(--drop-light);
+        padding-bottom: 4rem;
+    }
+
+    .language{
+        color: var(--drop-light);
+        font-size: 0.80rem;
+        padding-bottom: 3rem;
+    }
+}
