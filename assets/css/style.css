@@ -15,6 +15,8 @@ body{
     font-family: "Schibsted Grotesk", serif;
 }
 
+html { scroll-behavior: smooth; }
+
 /* Utilities */
 
 .container_70{
@@ -97,6 +99,9 @@ img{
 
 header{
     background-color: var(--drop-light);
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0.1rem rgba(0, 0, 0, 0.8);
 
     .left_menu,
     .right_menu{
@@ -111,7 +116,7 @@ header{
 
     li{
         &:hover{
-            border-bottom: 1px solid var(--drop-dark);
+            border-bottom: 2px solid var(--drop-dark);
         }
     }
 
